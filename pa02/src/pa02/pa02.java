@@ -36,7 +36,7 @@ public class pa02 {
 			System.out.println("#input" + i + "\nanswer : " + min_distance);
 			System.out.println(Arrays.toString(path));
 			long end = System.currentTimeMillis();
-			System.out.println("실행 시간 : " + (end - start) / 1000.0 + "\n-----------------------------");
+			System.out.println("실행 시간 : " + (end - start) / 1000.0 + "s\n-----------------------------");
 			fileScanner.close();
 		}
 	}
